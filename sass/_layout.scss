@@ -8,9 +8,14 @@
 }
 
 .header{
+    font-size: 1.4rem;
     height: 7rem;
     background-color: #fff;
     border-bottom: var(--color-grey-light-2);
+
+    display: flex;
+    justify-content: space-between; //works for main-axis along the row when flex direction is row or row-reverse
+    align-items: center; //works for cross-axis
 }
 
 .content{
